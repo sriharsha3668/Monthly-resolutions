@@ -1,0 +1,207 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+.orange
+{
+     color: #ea4f33;
+}
+
+.alignleft
+{
+     float: left;
+}
+
+.alignright
+{
+     float: right;
+}
+
+.circular
+{
+     border-radius: 50% ;
+}
+.inline
+{
+     display: inline-block;
+}
+.block
+{
+     display: block;
+}
+.large
+{
+     font-size: large;
+
+}
+.italic
+{
+     font-style: italic;
+}
+
+.whitish
+{
+     color: #f5a21c;
+     background: #030f4f;
+     font-size: small;
+     display: inline;
+     padding: 5px;
+     font-style: 'Lato', sans-serif;
+}
+
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+p
+{
+     font-size: medium ;
+     font-weight: 700;
+     
+}
+.space
+{
+     margin-bottom: 20px;
+
+}
+
+blockquote
+{
+  margin-left: 0;
+}
+.zoo
+{
+     padding-bottom: 15px;
+     border-bottom: 2px solid #030f4f;
+
+     
+}
+
+#simhadri
+{
+     padding-left: 20px;
+     border-left: 3px solid #030f4f;
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container
+{
+     width: 1300px;
+     margin: 0 auto 0 auto;
+     background: #030f4f;
+     padding: 50px 150px 10px 150px;
+     font-family: 'Lato', sans-serif;
+
+
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#Header
+{
+   color: #f5a21c;
+
+}
+
+#main
+{
+   width: 550px;
+   background: #f5a21c;
+   padding: 20px 15px 40px 15px;
+   float: left;
+   margin-right: 10px;
+   color: #030f4f;
+
+
+}
+
+#sidebar
+{
+     padding: 50px;
+     background: #f5a21c;
+     float: left;
+     width: 400px;
+     margin: 0px 10px 10px 10px;
+     border-left: 3px solid silver;
+     border-bottom: outset;
+     color: #030f4f;
+}
+
+#sidebar a
+{
+     text-decoration: none;
+     color: #f5a21c;
+     background: #030f4f;
+     padding: 5px;
+     border-radius: 7.5px;
+
+
+}
+#sidebar a:hover
+{
+     text-decoration: underline;
+
+
+}
+
+#footer
+{
+     color: #f5a21c;
+}
+#footer a
+{
+      text-decoration: none;
+
+}
+#footer a:hover
+{
+      text-decoration: underline;
+
+}
+
+#first
+{
+     margin-bottom: 100px;
+}
+
+#second
+{
+     margin-bottom: 100px;
+}
+#up
+{
+     margin-top: 50px;
+}
+.bava
+{
+     width: 500px;
+     margin: 0 auto;
+}
+
+h2
+{
+     /*font-family: 'Poppins', sans-serif;*/
+     font-family: monospace;
+     font-weight: bold;
+     font-size: 30px;
+}
